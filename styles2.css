@@ -1,6 +1,78 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color:#CBE4EE;
+}
+
+title {
+  color:#140E2C;
+}
+
 h1 {
   font-family: "Caveat",cursive;
+  color:#140E2C;
+  background-color:#3F7185;
+  text-align:center;
+  width: 60%;
+  margin:auto;
+  font-size: 600%;
 }
+
+nav {
+  margin: auto;
+  width: 30%;
+  text-align:center;
+  font-size:150%;
+  color:#513AB6;
+  border-style:solid;
+  border-color:#140033;
+
+}
+
 main {
   font-family:"BenchNine",sans-serif;
+  color:#140E2C;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+aside {
+  margin: auto;
+  text-align: center;
+  height: 30vh;
+  display: inline;
+  padding: 20px;
+  width: 100%;
+  background-image: url(images/ice tree.jpg);
+
+}
+
+
+.centerindex {
+  display: block;
+  height: 100%;
+  width: 50%;
+  
+  padding: 20px;
+}
+
+.comments {
+  text-align:center;
+  font-size:300%;
+  color:#140E2C;
+}
+
+.comment {
+  font-size:500%;
+  text-align:center;
+}
+
+p {
+  color:#140E2C;
 }
