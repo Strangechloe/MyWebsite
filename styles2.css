@@ -1,6 +1,5 @@
 body {
-  width: 100%;
-  height: 100%;
+  margin: auto;
   background-color:#CBE4EE;
 
 }
@@ -27,30 +26,27 @@ nav {
   display: flex;
   list-style: none;
   width: 100%;
+  justify-content: center;
 }
 
 ul {
   display: flex;
   list-style: none;
-
 }
 
-li {
-  padding-right: 20px;
-  padding-top: 20px;
-  width: inherit;
+.navtags {
+  padding: 20px;
   font-size:150%;
-  color:#513AB6;
-  background-color:
+  background-color:#3F7185;
 }
 
-li a {
+.navtags a {
   text-decoration: none;
-
+  color:#ffffff;
 }
 
-li a:hover {
-  background-color:#91b9c9;
+.navtags a:hover {
+  background-color:#1F2933;
   color: #FFFF00;
 }
 
@@ -71,13 +67,13 @@ aside {
   height: 30vh;
   display: inline;
   padding: 20px;
-  width: 100%;
+  width: 50%;
 }
 
 
 .centerindex {
   display: block;
-  width: 50%;
+  width: 40%;
   transform: rotate(90deg);
   margin-left: auto;
   margin-right: auto;
@@ -90,7 +86,7 @@ aside {
   color:#140E2C;
 }
 
-.comment {
+.footercomment {
   font-size:500%;
   text-align:center;
 }
@@ -105,4 +101,24 @@ p {
   margin-right: auto;
   width: 500px;
   height: 500px;
+}
+
+@media only screen and (max-width: 600px){
+  ul {
+    font-size: 0.5em;
+  }
+
+  .footercomment {
+    font-size: 250%;
+  }
+
+  .comments {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+     ul {
+    display: block;
+  }
 }
