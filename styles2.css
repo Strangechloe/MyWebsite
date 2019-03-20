@@ -2,6 +2,7 @@ body {
   width: 100%;
   height: 100%;
   background-color:#CBE4EE;
+
 }
 
 title {
@@ -13,20 +14,44 @@ h1 {
   color:#140E2C;
   background-color:#3F7185;
   text-align:center;
-  width: 60%;
+  width: 100%;
   margin:auto;
   font-size: 600%;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
-  margin: auto;
-  width: 30%;
-  text-align:center;
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+
+}
+
+li {
+  padding-right: 20px;
+  padding-top: 20px;
+  width: inherit;
   font-size:150%;
   color:#513AB6;
-  border-style:solid;
-  border-color:#140033;
+  background-color:
+}
 
+li a {
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color:#91b9c9;
+  color: #FFFF00;
 }
 
 main {
@@ -43,23 +68,20 @@ main {
 }
 
 aside {
-  margin: auto;
-  text-align: center;
   height: 30vh;
   display: inline;
   padding: 20px;
   width: 100%;
-  background-image: url(images/ice tree.jpg);
-
 }
 
 
 .centerindex {
   display: block;
-  height: 100%;
   width: 50%;
-  
-  padding: 20px;
+  transform: rotate(90deg);
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .comments {
@@ -75,4 +97,12 @@ aside {
 
 p {
   color:#140E2C;
+}
+
+.gallery {
+  transform: rotate(90deg);
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
 }
