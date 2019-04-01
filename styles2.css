@@ -16,6 +16,8 @@ h1 {
   width: 100%;
   margin:auto;
   font-size: 600%;
+  height: 300px;
+  margin-top: 20px;
 }
 
 a {
@@ -70,11 +72,9 @@ aside {
 
 }
 
-
 .centerindex {
   display: block;
   width: 40%;
-  transform: rotate(90deg);
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -93,6 +93,7 @@ aside {
 
 p {
   color:#140E2C;
+  margin: 20px;
 }
 
 .gallery {
@@ -114,6 +115,10 @@ p {
 
   .comments {
     font-size: 150%;
+  }
+
+  .centerindex {
+    width: 80%;
   }
 }
 
