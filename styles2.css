@@ -16,8 +16,9 @@ h1 {
   width: 100%;
   margin:auto;
   font-size: 600%;
-  height: 300px;
+  height: 250px;
   margin-top: 20px;
+  padding-top: 5%;
 }
 
 a {
@@ -78,6 +79,8 @@ aside {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+  
+  overflow: hidden;
 }
 
 .comments {
